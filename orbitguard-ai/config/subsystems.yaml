@@ -1,0 +1,12 @@
+subsystem_mapping:
+  mean: "Signal Stats"
+  var: "Signal Stats"
+  std: "Signal Stats"
+  kurtosis: "Signal Shape"
+  skew: "Signal Shape"
+  n_peaks: "Frequency"
+  diff_peaks: "Frequency"
+  diff_var: "Variability"
+  len_weighted: "Duration Metrics"
+
+default_subsystem: "Unknown / Unmapped"

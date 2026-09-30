@@ -1,0 +1,20 @@
+dataset_path: "data/telemetry.csv"
+timestamp_column: "segment"
+feature_columns:
+  - "mean"
+  - "var"
+  - "std"
+  - "kurtosis"
+  - "skew"
+  - "n_peaks"
+  - "diff_peaks"
+  - "diff_var"
+  - "len_weighted"
+
+window_size: 20
+train_split: 0.7
+validation_split: 0.15
+test_split: 0.15
+
+fusion_alpha: 0.5  # Weight for Isolation Forest (1-alpha for LSTM)
+playback_speed: 1.0  # seconds between dashboard updates during live simulation
